@@ -50,15 +50,15 @@ export default function RootLayout({
     <html lang="en">
           
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black min-h-screen`}
       >
-          <header>
+          {/* <header>
           <h1>My App</h1>
           <nav>
             <a href="/">Home</a>
             <a href="/about">About</a>
           </nav>
-        </header>
+        </header> */}
         <SessionProvider>{children}</SessionProvider>
       </body>
     </html>
